@@ -1,0 +1,19 @@
+{
+    "name": "noruzzaman/plugin-name",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "plugin\\name\\": "includes/"
+        },
+        "files": [ 
+            "includes/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "noruzzamanrubel",
+            "email": "noruzzamanrubel@gmail.com"
+        }
+    ]
+}
